@@ -218,13 +218,13 @@ export const mockProducts: Product[] = [
 export const mockTestimonials: Testimonial[] = [
   {
     id: 1,
-    name: 'John Anderson',
+    name: 'John Miller',
     company: 'Tech Innovations Inc',
     role: 'HR Director',
     content:
       'JIRE Garments transformed our corporate image. The quality is exceptional and the custom design service was outstanding. Highly recommended!',
     rating: 5,
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop',
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2?w=400&h=400&fit=crop',
     date: '2024-01-15',
   },
   {
@@ -235,7 +235,7 @@ export const mockTestimonials: Testimonial[] = [
     content:
       'We&apos;ve been ordering medical scrubs from JIRE for over 2 years. Consistent quality, great service, and competitive pricing. Our staff loves them!',
     rating: 5,
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop',
+    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b2933?w=400&h=400&fit=crop',
     date: '2024-01-10',
   },
   {
@@ -246,7 +246,7 @@ export const mockTestimonials: Testimonial[] = [
     content:
       'The attention to detail in our custom uniforms is incredible. JIRE understood our brand vision perfectly and delivered beyond expectations.',
     rating: 5,
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop',
+    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43?w=400&h=400&fit=crop',
     date: '2024-01-05',
   },
   {
@@ -257,7 +257,7 @@ export const mockTestimonials: Testimonial[] = [
     content:
       'Quick turnaround time, excellent customer service, and the embroidery work is top-notch. Our team looks more professional than ever!',
     rating: 4.8,
-    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop',
+    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d8?w=400&h=400&fit=crop',
     date: '2023-12-28',
   },
   {

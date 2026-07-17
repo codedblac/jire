@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 import { Menu, X, ShoppingCart, User } from 'lucide-react'
 import { NAV_ITEMS } from '@/lib/constants'
+import Image from "next/image";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -13,15 +14,25 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-[#0A1F44] to-[#FFD700] rounded-lg flex items-center justify-center">
-              <span className="text-white font-heading font-bold text-lg">JG</span>
-            </div>
-            <div className="hidden sm:block">
-              <h1 className="font-heading font-bold text-[#0A1F44] text-lg">JIRE</h1>
-              <p className="text-xs text-[#FFD700] font-medium">GARMENTS</p>
-            </div>
-          </Link>
+          <Link href="/" className="flex items-center gap-3">
+          <Image
+            src="/logo.jpeg"
+            alt="JIRE Garments Logo"
+            width={50}
+            height={50}
+            priority
+            className="object-contain"
+          />
+
+          {/* <div className="hidden sm:block">
+            <h1 className="font-heading font-bold text-[#0A1F44] text-lg">
+              JIRE
+            </h1>
+            <p className="text-xs text-[#FFD700] font-medium">
+              GARMENTS
+            </p>
+          </div> */}
+        </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8">
