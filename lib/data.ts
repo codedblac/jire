@@ -9,7 +9,7 @@ export const mockProducts: Product[] = [
     price: 45,
     originalPrice: 65,
     category: 'Corporate Wear',
-    image: 'https://images.unsplash.com/photo-1596701683639-106e8ac7ffad?w=500&h=500&fit=crop',
+    image: '/images/products/corppolo.jpg',
     rating: 4.8,
     reviews: 245,
     inStock: true,

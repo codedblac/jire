@@ -10,12 +10,14 @@ export const metadata = {
 }
 
 const categoryImages: { [key: number]: string } = {
-  1: '/images/services/custom-design.png',
-  2: '/images/services/embroidery.png',
-  3: '/images/services/printing.png',
-  4: '/images/services/custom-design.png',
-  5: '/images/services/embroidery.png',
-  6: '/images/services/printing.png',
+  1: '/images/products/corp_wear.webp',
+  2: '/images/products/medical.png',
+  3: '/images/products/hospitality_wear.jpg',
+  4: '/images/products/industrial.jpg',
+  5: '/images/products/safety.webp',
+  6: '/images/products/uniforms.webp',
+  7: '/images/products/sports_wear.jpg',
+  8: '/images/products/accesories.avif',
 }
 
 export default function ProductsPage() {
@@ -67,17 +69,17 @@ export default function ProductsPage() {
                       <h3 className="font-heading font-bold text-lg text-[#0A1F44] mb-1 group-hover:text-[#0A1F44] transition-colors">
                         {category.name}
                       </h3>
-                      <p className="text-gray-500 text-sm">
+                      {/* <p className="text-gray-500 text-sm">
                         Browse our {category.name.toLowerCase()} collection
-                      </p>
+                      </p> */}
                     </div>
                   </div>
 
                   {/* Visual Indicator */}
-                  <div className="px-6 pb-6 pt-0 flex items-center gap-1 text-xs font-semibold text-[#0A1F44] group-hover:text-[#FFD700] transition-colors">
+                  {/* <div className="px-6 pb-6 pt-0 flex items-center gap-1 text-xs font-semibold text-[#0A1F44] group-hover:text-[#FFD700] transition-colors">
                     <span>Explore Category</span>
                     <span className="group-hover:translate-x-1 transition-transform">→</span>
-                  </div>
+                  </div> */}
                 </Link>
               )
             })}

@@ -11,9 +11,9 @@ export default function ServicesSection() {
     1: '/images/services/custom-design.png',
     2: '/images/services/embroidery.png',
     3: '/images/services/printing.png',
-    4: '/images/services/custom-design.png',
-    5: '/images/services/embroidery.png',
-    6: '/images/services/printing.png',
+    4: '/images/services/heatpress.jpg',
+    5: '/images/services/sublimation.webp',
+    6: '/images/services/custom.webp',
   }
 
   return (

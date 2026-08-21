@@ -74,8 +74,9 @@ export const NAV_ITEMS = [
   { label: 'About', href: '/about' },
   { label: 'Products', href: '/products' },
   { label: 'Services', href: '/services' },
-  { label: 'Industries', href: '/industries' },
-  { label: 'Portfolio', href: '/portfolio' },
+  // {label: 'Shop', href: '/shop' },
+  // { label: 'Industries', href: '/industries' },
+  // { label: 'Portfolio', href: '/portfolio' },
   // { label: 'Blog', href: '/blog' },
   { label: 'Contact', href: '/contact' },
 ]
@@ -150,14 +151,14 @@ export const SERVICES = [
 
 // Product Categories
 export const PRODUCT_CATEGORIES = [
-  { id: 1, name: 'Corporate Wear', image: 'corporate' },
+  { id: 1, name: 'Corporate Wear', image: 'corp_wear' },
   { id: 2, name: 'Medical', image: 'medical' },
-  { id: 3, name: 'Hospitality', image: 'hospitality' },
+  { id: 3, name: 'Hospitality', image: 'hospitality_wear' },
   { id: 4, name: 'Industrial', image: 'industrial' },
   { id: 5, name: 'Safety', image: 'safety' },
-  { id: 6, name: 'School Uniforms', image: 'school' },
-  { id: 7, name: 'Sports Wear', image: 'sports' },
-  { id: 8, name: 'Accessories', image: 'accessories' },
+  { id: 6, name: 'School Uniforms', image: 'uniforms' },
+  { id: 7, name: 'Sports Wear', image: 'sports_wear' },
+  { id: 8, name: 'Accessories', image: 'accesories' },
 ]
 
 // Industries
