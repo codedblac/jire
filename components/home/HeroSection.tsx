@@ -7,8 +7,8 @@ import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react'
 import { useState, useEffect } from 'react'
 
 const heroImages = [
-  '/images/hero/slide-1.png',
-  '/images/hero/slide-2.png',
+  '/images/products/accesories.avif',
+  '/images/products/corppolo.jpg',
   '/images/hero/slide-3.png',
 ]
 
