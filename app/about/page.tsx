@@ -12,7 +12,7 @@ export default function AboutPage() {
       <Header />
       <div className="min-h-screen py-12 md:py-16 lg:py-20">
         <div className="max-w-4xl mx-auto px-4 md:px-6 lg:px-8">
-          <h1 className="font-heading font-bold text-5xl text-[#0A1F44] mb-6">About JIRE Garments Embroidery Ltd.</h1>
+          <h1 className="font-heading font-bold text-5xl text-[#0A1F44] mb-6">About JIRE Garments Embroidery .</h1>
           
           <div className="prose prose-lg max-w-none">
             <p className="text-xl text-gray-700 leading-relaxed mb-6">
