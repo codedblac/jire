@@ -31,7 +31,7 @@ export default function Footer() {
               <div className="flex items-center gap-2">
                 <Mail size={16} className="text-[#FFD700]" />
                 <a href="mailto:jiregarmentsjire@gmail.com" className="hover:text-[#FFD700] transition-colors">
-                  jiregarmentsjire@gmail.com
+                  info@jiregarments.com
                 </a>
               </div>
               <div className="flex items-start gap-2">
