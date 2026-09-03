@@ -9,7 +9,7 @@ export const metadata = {
 }
 
 export default function ShopPage() {
-  const whatsappNumber = '254721704194' // Replace with your company WhatsApp phone number (including country code)
+  const whatsappNumber = '254769930130' // Replace with your company WhatsApp phone number (including country code)
 
   return (
     <main className="bg-white">

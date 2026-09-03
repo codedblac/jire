@@ -29,7 +29,7 @@ export default function CTASection() {
                 <div className="flex items-center gap-3">
                   <Phone size={20} className="text-[#FFD700]" />
                   <a href="tel:+254721704194" className="hover:text-[#FFD700] transition-colors">
-                    +254 (721) 704-194
+                    +254 (721) 704-194   
                   </a>
                 </div>
                 <div className="flex items-center gap-3">

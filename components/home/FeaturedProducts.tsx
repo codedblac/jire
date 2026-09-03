@@ -8,7 +8,7 @@ import { containerVariants, itemVariants } from '@/lib/animations'
 
 export default function FeaturedProducts() {
   const featuredProducts = mockProducts.slice(0, 6)
-  const whatsappNumber = '254721704194' // Replace with your company WhatsApp phone number (with country code)
+  const whatsappNumber = '254769930130' // Replace with your company WhatsApp phone number (with country code)
 
   return (
     <section className="py-16 md:py-20 lg:py-24 bg-gray-50">
