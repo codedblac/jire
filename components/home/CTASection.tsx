@@ -28,8 +28,8 @@ export default function CTASection() {
               <div className="space-y-4 mb-8">
                 <div className="flex items-center gap-3">
                   <Phone size={20} className="text-[#FFD700]" />
-                  <a href="tel:+1234567890" className="hover:text-[#FFD700] transition-colors">
-                    +1 (234) 567-890
+                  <a href="tel:+254721704194" className="hover:text-[#FFD700] transition-colors">
+                    +254 (721) 704-194
                   </a>
                 </div>
                 <div className="flex items-center gap-3">
@@ -47,7 +47,7 @@ export default function CTASection() {
                   whileTap={{ scale: 0.95 }}
                 >
                   <Link
-                    href="/quote"
+                    href="/contact"
                     className="inline-flex items-center gap-2 bg-[#FFD700] text-[#0A1F44] px-8 py-4 rounded-lg font-heading font-bold text-lg hover:bg-white transition-all duration-300 shadow-lg hover:shadow-xl justify-center sm:justify-start"
                   >
                     Request a Quote

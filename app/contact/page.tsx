@@ -65,7 +65,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-bold text-[#0A1F44]">Email</h3>
-                    <a href="mailto:jiregarmentsjire@gmail.com" className="text-gray-600 hover:text-[#FFD700] transition-colors">
+                    <a href="mailto:info@jiregarments.com" className="text-gray-600 hover:text-[#FFD700] transition-colors">
                       info@jiregarments.com
                     </a>
                   </div>
